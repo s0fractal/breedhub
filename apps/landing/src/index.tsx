@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App"; // твій головний компонент App
+import LandingRouter from "./router/LandingRouter";
 
-import "../index.css"; // якщо потрібні стилі/tailwind
+import "../index.css"; // якщо є спільні стилі/tailwind
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <LandingRouter />
   </React.StrictMode>
 );
